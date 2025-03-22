@@ -1,17 +1,3 @@
-/* <form class="feedback-form" autocomplete="off">
-  <label>
-    Email
-    <input type="email" name="email" autofocus />
-  </label>
-  <label>
-    Message
-    <textarea name="message" rows="8"></textarea>
-  </label>
-  <button class="feedback-form-form" type="submit">
-    Submit
-  </button>
-</form>; */
-
 const formData = {
   email: '',
   message: '',
