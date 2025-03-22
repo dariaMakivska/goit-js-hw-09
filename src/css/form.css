@@ -1,0 +1,111 @@
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  outline: none;
+}
+
+.back-link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+
+.feedback-form {
+  width: 408px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedback-form label {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+  margin-bottom: 8px;
+  margin-left: 24px;
+  border-radius: 4px;
+
+}
+
+.feedback-form input {
+  width: auto;
+  border-radius: 4px;
+  border-color: #808080;
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-width: 1px;
+
+}
+
+.feedback-form textarea{
+  border-radius: 4px;
+  border-color: #808080;
+  padding-top: 8px;
+  margin-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.feedback-form textarea:hover {
+  outline: none;
+  border-color: #2E2F42;
+}
+
+.feedback-form textarea:focus {
+  outline: none;
+  border-color: #808080;
+}
+
+.feedback-form input:hover {
+  border-color: #2E2F42;
+  background-color: #FFFFFF;
+}
+
+.feedback-form input:focus{
+  outline: none;
+  border-color: #808080;
+}
+
+
+
+input::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #2E2F42;
+}
+
+.feedback-form button {
+  margin-top: 8px;
+  margin-left: 24px;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  border-radius: 8px;
+  border: #4E75FF;
+}
+
+.feedback-form button:hover {
+  background-color: #6C8CFF;
+  border: #6C8CFF;
+}
+ */
