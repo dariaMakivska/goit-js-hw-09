@@ -96,3 +96,6 @@ let lightbox = new SimpleLightbox('.gallery a', {
 gallery.addEventListener('click', event => {
   event.preventDefault();
 });
+
+// document.querySelector('.sl-image').style.top = '';
+// document.querySelector('.sl-image').style.left = '';

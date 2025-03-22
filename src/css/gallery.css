@@ -19,6 +19,7 @@ ul {
   margin-top: 24px;
   margin-right: 24px;
   width: 360px;
+  height: 200px;
 }
 
 .gallery-item:nth-child(3n) {
@@ -33,9 +34,45 @@ ul {
 
 .gallery-image:hover {
   width: 100%;
-  height: 208px;
+  height: 100%;
 }  
+
+
+.sl-wrapper .sl-image {
+  top: 28px !important;
+  left: 40px !important;
+  width: 1112px !important;
+  height: 640px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 28px 164px;
+}
+
+.sl-wrapper .sl-image img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+.sl-wrapper .sl-caption {
+  width: 100% !important;
+}
 
 .sl-overlay{
   background-color: #2E2F42 !important;
+}
+
+
+.sl-prev, .sl-next, .sl-close {
+  color: #FFFFFF !important;
+}
+
+.sl-counter{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #FFFFFF !important;
 }
